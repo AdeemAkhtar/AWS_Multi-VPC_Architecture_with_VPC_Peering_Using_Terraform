@@ -50,23 +50,23 @@ Most importantly, I gained experience thinking about how AWS networking componen
 
 ## Project Folder Structure
 
-VPC_Peering_Using_Terraform/
-|
-|-- provider.tf
-|-- variables.tf
-|-- terraform.tfvars.example
-|-- vpc.tf
-|-- subnet.tf
-|-- internet-gateway.tf
-|-- route-table.tf
-|-- security-group.tf
-|-- ec2.tf
-|-- vpc-peering.tf
-|-- outputs.tf
-|-- versions.tf
-|
-|-- .gitignore
-|-- README.md
+VPC_Peering_Using_Terraform/\n
+|\n
+|-- provider.tf\n
+|-- variables.tf\n
+|-- terraform.tfvars.example\n
+|-- vpc.tf\n
+|-- subnet.tf\n
+|-- internet-gateway.tf\n
+|-- route-table.tf\n
+|-- security-group.tf\n
+|-- ec2.tf\n
+|-- vpc-peering.tf\n
+|-- outputs.tf\n
+|-- versions.tf\n
+|\n
+|-- .gitignore\n
+|-- README.md\n
 
 
 ## Prerequisites
