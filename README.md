@@ -61,10 +61,10 @@ Before deploying this project, ensure you have:
 * Basic understanding of AWS networking
 
 ## Clone the this repo in your system
-git clone <YOUR-GITHUB-REPOSITORY-URL>
+git clone [<YOUR-GITHUB-REPOSITORY-URL>](https://github.com/AdeemAkhtar/AWS_Multi-VPC_Architecture_with_VPC_Peering_Using_Terraform)
 
 ## Navigate to the cloned folder
-cd <CLONED FOLDER>
+cd AWS_Multi-VPC_Architecture_with_VPC_Peering_Using_Terraform
 
 ## Initialise Terraform
 terraform init
