@@ -51,22 +51,22 @@ Most importantly, I gained experience thinking about how AWS networking componen
 ## Project Folder Structure
 
 VPC_Peering_Using_Terraform/
-│
-├── provider.tf
-├── variables.tf
-├── terraform.tfvars.example
-├── vpc.tf
-├── subnet.tf
-├── internet-gateway.tf
-├── route-table.tf
-├── security-group.tf
-├── ec2.tf
-├── vpc-peering.tf
-├── outputs.tf
-├── versions.tf
-│
-├── .gitignore
-└── README.md
+|
+|-- provider.tf
+|-- variables.tf
+|-- terraform.tfvars.example
+|-- vpc.tf
+|-- subnet.tf
+|-- internet-gateway.tf
+|-- route-table.tf
+|-- security-group.tf
+|-- ec2.tf
+|-- vpc-peering.tf
+|-- outputs.tf
+|-- versions.tf
+|
+|-- .gitignore
+|-- README.md
 
 
 ## Prerequisites
@@ -110,18 +110,23 @@ Useful Terraform outputs can include:
 output "primary_vpc_id" { 
     value = aws_vpc.primary_vpc.id
 } 
+
 output "secondary_vpc_id" { 
     value = aws_vpc.secondary_vpc.id
 } 
+
 output "primary_ec2_private_ip" { 
     value = aws_instance.primary_instance.private_ip
 } 
+
 output "secondary_ec2_private_ip" { 
     value = aws_instance.secondary_instance.private_ip
 } 
+
 output "vpc_peering_id" { 
     value = aws_vpc_peering_connection.primary_to_secondary.id
 }
+
 
 Results:
 ![<# alt text #>](ScreenShots/9_output.png "Screenshot")
